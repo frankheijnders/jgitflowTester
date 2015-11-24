@@ -4,7 +4,7 @@
 
     <groupId>gitFlow</groupId>
     <artifactId>testFlow</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.3.0</version>
 
   <distributionManagement>
     <repository>
@@ -15,7 +15,7 @@
       <layout>default</layout>
     </repository>
     <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
+      <uniqueVersion>false</uniqueVersion>
       <id>nexus-snapshot</id>
       <name>Nexus Development Repo</name>
       <url>http://buildserver01.cloudapp.net:8081/nexus/content/repositories/allego-snapshots/</url>
