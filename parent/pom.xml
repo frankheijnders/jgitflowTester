@@ -4,8 +4,12 @@
 
     <groupId>gitFlow</groupId>
     <artifactId>parentFlow</artifactId>
-    <version>1.5.0-SNAPSHOT</version>
+    <version>${jgitflow.version}</version>
     <packaging>pom</packaging>
+
+  <properties>
+    <jgitflow.version>1.5.0-SNAPSHOT</jgitflow.version>
+  </properties>
 
   <distributionManagement>
     <repository>
