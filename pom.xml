@@ -11,6 +11,5 @@
 
 	<groupId>gitFlow</groupId>
 	<artifactId>testFlow</artifactId>
-	<version>${parent.version}</version>
-
+	<version>${project.parent.version}</version>
 </project>
