@@ -12,14 +12,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>nexus-releases</id>
       <name>Nexus Release Repo</name>
-      <url>http://buildserver01.cloudapp.net:8081/nexus/content/repositories/allego-releases/</url>
+      <url>http://buildserver01.cloudapp.net:8081/nexus/content/repositories/osgp-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>false</uniqueVersion>
       <id>nexus-snapshot</id>
       <name>Nexus Development Repo</name>
-      <url>http://buildserver01.cloudapp.net:8081/nexus/content/repositories/allego-snapshots/</url>
+      <url>http://buildserver01.cloudapp.net:8081/nexus/content/repositories/osgp-snapshots/</url>
       <layout>default</layout>
     </snapshotRepository>
   </distributionManagement>
