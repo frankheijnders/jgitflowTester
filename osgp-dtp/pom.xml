@@ -2,20 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.alliander.osgp</groupId>
-  <artifactId>shared</artifactId>
+  <artifactId>osgp-dtp</artifactId>&#xD;
   <version>1.5.0</version>
-  <packaging>pom</packaging>
+  <name>osgp-dtp</name>
 
   <parent>
     <groupId>com.alliander.osgp</groupId>
     <artifactId>parent</artifactId>
     <version>1.1.0</version>
-    <relativePath>parent</relativePath>
+    <relativePath>../parent</relativePath>
   </parent>
 
-  <modules>
-    <module>osgp-dto</module>
-    <module>osgp-dtp</module>
-  </modules>
 </project>
