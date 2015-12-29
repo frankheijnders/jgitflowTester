@@ -33,9 +33,9 @@
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <version>1.0-m5.1</version>
                 <configuration>
-                    <pushFeatures>true</pushFeatures>
-		    <pushHotfixes>true</pushHotfixes>
-		    <pushReleases>true</pushReleases>
+                    <pushFeatures>false</pushFeatures>
+		    <pushHotfixes>false</pushHotfixes>
+		    <pushReleases>false</pushReleases>
 		    <enableSshAgent>true</enableSshAgent>
                     <flowInitContext>
                         <masterBranchName>master</masterBranchName>
