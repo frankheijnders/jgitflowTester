@@ -1,0 +1,4 @@
+[submodule "jgitflowParent"]
+	path = jgitflowParent
+	url = git@github.com:frankheijnders/jgitflowParent.git
+	branch = development
